@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+  <title>Sakura Tarot</title>
+  <meta name='viewport'
+        content='user-scalable=no,
+                 width=device-width,
+                 initial-scale=1,
+                 maximum-scale=1,
+                 minimal-ui'>
+  <link href='css/normalize.css' rel='stylesheet' type='text/css'>
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+  <div style="display:none" id="tudo_page">
+  <div style="text-align: center;"  aling="center"><img aling="center" class="fly"  src="sakura.png"></div>
+  <div class='container'>
+
+    
+    <div  class='main'>
+      
+      <img id='card' src='img/loading.gif'>
+      <div style = "display: none;" id='progress'></div>
+      <div style="display:none;" id='timer'></div>
+      
+    </div>
+  </div>
+  <div style="text-align: center;"   aling="center" > <img  class="angel" style="text-align: center;" aling="center" src="txt.png"></div>
+  <div style="text-align: center;"  > <img  class="sant" style="text-align: center;" aling="center" src="txt2.png"></div>
+
+  <div aling="center" class='preload'>
+    <img id="jesus" onclick="sky()" src='cards/back.png'>
+    <img src='cards/KD.png'>
+    <img src='cards/7S.png'>
+    <img src='cards/6D.png'>
+    <img src='cards/8C.png'>
+    <img src='cards/6H.png'>
+    <img src='cards/5C.png'>
+    <img src='cards/AC.png'>
+    <img src='cards/AD.png'>
+    <img src='cards/9C.png'>
+    <img src='cards/JC.png'>
+    <img src='cards/QD.png'>
+    <img src='cards/2D.png'>
+    <img src='cards/JH.png'>
+    <img src='cards/KS.png'>
+    <img src='cards/4D.png'>
+    <img src='cards/AS.png'>
+    <img src='cards/4S.png'>
+    <img src='cards/5S.png'>
+    <img src='cards/3C.png'>
+    <img src='cards/2S.png'>
+    <img src='cards/QH.png'>
+    <img src='cards/KC.png'>
+    <img src='cards/7C.png'>
+    <img src='cards/KH.png'>
+    <img src='cards/6C.png'>
+    <img src='cards/6S.png'>
+    <img src='cards/AH.png'>
+    <img src='cards/9S.png'>
+    <img src='cards/8D.png'>
+    <img src='cards/8H.png'>
+    <img src='cards/10C.png'>
+    <img src='cards/10H.png'>
+    <img src='cards/QC.png'>
+    <img src='cards/8S.png'>
+    <img src='cards/3H.png'>
+    <img src='cards/10D.png'>
+    <img src='cards/JD.png'>
+    <img src='cards/4C.png'>
+    <img src='cards/7D.png'>
+    <img src='cards/7H.png'>
+    <img src='cards/2C.png'>
+    <img src='cards/2H.png'>
+    <img src='cards/3S.png'>
+    <img src='cards/9H.png'>
+    <img src='cards/JS.png'>
+    <img src='cards/QS.png'>
+    <img src='cards/5D.png'>
+    <img src='cards/4H.png'>
+    <img src='cards/5H.png'>
+    <img src='cards/10S.png'>
+    <img src='cards/9D.png'>
+    <img src='cards/3D.png'>
+  </div>
+ </div>
+ <footer></footer>
+ <script type='text/javascript' src='js/jquery-1.9.1.min.js'></script>
+<script>jQuery(window).load(function () {
+      $(".loader").delay(0).fadeOut("slow"); //retire o delay quando for copiar!
+    $("#tudo_page").toggle("fast");
+});
+</script>
+  <script type='text/javascript' src='js/hammer.min.js'></script>
+  <script type='text/javascript' src='js/deck.js'></script>
+  <script type='text/javascript' src='js/timer.js'></script>
+  <script type='text/javascript' src='js/main.js'></script>
+  <script type='text/javascript' src='js/sakura.js'></script>
+</body>
+</html>

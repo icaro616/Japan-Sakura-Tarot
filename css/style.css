@@ -1,0 +1,136 @@
+ul {
+  display: none;
+}
+
+.container {
+  text-align: center;
+  margin: 10px auto;
+}
+
+
+
+.preload {
+  
+  display: none;
+
+}
+
+#progress {
+  display: block;
+  background: #cdf;
+  height: 10px;
+  width: 0%;
+}
+
+#progress.complete {
+  background: #cfc;
+}
+
+#timer {
+  font-family: monospace;
+  font-size: 40px;
+  color: #eee;
+  margin-top: 10px;
+}
+
+#timer.stopped {
+  color: #000;
+}
+
+code {
+  background: #eee;
+}
+.container {
+  width: 100px;
+}
+#card{
+  width: 100px;
+}
+.fly{
+
+
+  width: 280px;
+  
+  
+}
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('gif2.gif') 50% 50% no-repeat white;
+}
+.flyangel{
+
+  display: none;
+}
+.angel{
+  display: none;
+    
+    
+  }
+  .textofly{
+
+    width: 280px;
+  }
+.sant{
+
+
+  width: 280px;
+  display: inline;
+
+}
+.carta{
+
+  width: 100px;
+}
+.main, #timer {
+
+  width: 100px;
+
+}
+@media (min-width: 500px) {
+  ul {
+   
+    display: block;
+  
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    width: 150px;
+  }
+  #card{
+    width: 150px;
+  }
+
+  .main, , #timer {
+
+    width: 150px;
+
+  }
+  .fly{
+
+
+  width: 570px;
+  height: 101px;
+}
+.angel{
+display: inline;
+
+  width:350px;
+  
+  
+}
+.sant{
+width: 280px;
+
+  
+  display: none;
+  
+}
+}
